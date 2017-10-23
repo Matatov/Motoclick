@@ -1,0 +1,177 @@
+﻿body, h1 {
+	font-family: Roboto;
+}
+
+
+/*header*/
+.header {
+	width: 100%;
+	height: 600px;
+	background: url("../img/backhead2.jpg") no-repeat ;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
+.block {
+	padding: 50px 50px 50px 50px;
+	
+}
+
+.logo {
+	float: left;
+}
+
+.navmenu {
+	float: right;
+	margin-top: 20px;
+}
+
+.menu li {
+	float: left;
+}
+.menu a {
+	text-decoration: none;
+	padding: 5px 20px 6px 20px;
+	margin: 10px;
+	border: 2px solid rgba(225, 225, 225, 1); /* Параметры рамки */
+	border-radius: px;
+    color: white;
+    font-size: 16px; /* Размер текста */
+   
+}
+.menu li a:hover { /*псевдокласс hover - при на ведении курсора на ссылку ненумерованного списка*/
+color: ;
+background: #008bf6;
+}
+
+
+
+.title {
+	text-align: center;
+	color: white;
+	font-size: 48pt;
+	margin-top: 160px;
+	font-family: Roboto ;
+}
+.slogan {
+	text-align: center;
+	color: rgba(225, 225, 225, 0.85);
+	font-size: 36pt;
+}
+
+/*content*/
+
+.function {
+	display: table;
+	margin: 0 auto;
+	width: 60%;
+	padding-bottom: 50px;
+
+}
+.function h2 {
+	text-align: center;
+	font-size: 30pt;
+	
+}
+.func_block {
+	height:	 auto;
+	margin: 20px 0 20px 0;
+	padding: 25px 0 25px 0;
+}
+
+.func_block img {
+	float: left;
+	display: table;
+	height:;
+	margin-right: 30px;
+}
+.func_block h3 {
+	font-size:26pt;
+}
+
+.func_block p {
+	font-size:16pt;
+	text-align: justify;
+}
+
+/* download */
+
+.down {
+	background-color: green;
+	background-image: url("../img/backdown.jpg");
+		display: table;
+	margin: 0 auto;
+	width: 100%;
+	padding: 50px 0 50px 0;
+}
+.indown {
+	display: table;
+	margin: 0 auto;
+}
+.image_screen {
+	float: left;
+}
+
+.text_down {
+	float: right;
+	font-size:;
+	margin-left: 30px;
+	margin-top: 65px;
+}
+.text_down h1 {
+	    font-size: 32pt;
+}
+.text_down h2 {
+	    font-size: 20pt;
+		
+}
+.policy {
+	    margin-top: 80px;
+		color: black;
+		font-size: 14pt;
+}
+.down_button {
+	color: black;
+	text-decoration: none;
+	font-size: 32pt;
+	padding: 5px 20px 7px;
+	border: 2px solid rgba(0, 0, 0, 1); /* Параметры рамки */
+	border-radius: px;
+	margin: 25px 0;
+}
+.text_down ul li {
+	margin-top: 55px;
+	margin-bottom
+}
+
+.down_button:hover { /*псевдокласс hover - при на ведении курсора на ссылку ненумерованного списка*/
+color: ;
+background: #008bf6;
+}
+.policy:hover { /*псевдокласс hover - при на ведении курсора на ссылку ненумерованного списка*/
+color: #008bf6;
+background: ;
+}
+
+/* footer*/
+
+.footer {
+	background:  white;
+	display: block;
+	height: 80px;
+	padding: 25px 40px;
+}
+.footer a{
+	text-decoration: none;
+	font-size: 14pt;
+	padding-right: 25px;
+	color: black;
+}
+.footer a:hover { /*псевдокласс hover - при на ведении курсора на ссылку ненумерованного списка*/
+color: #008bf6;
+background: ;
+}
+
+.footer p {
+	margin-top: 25px;
+}
